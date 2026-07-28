@@ -86,8 +86,8 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    width: 95%;
-    max-width: 95%;
+    width: 85%;
+    max-width: 85%;
     margin: 15px auto;
     left: 0;
     right: 0;
