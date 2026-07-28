@@ -87,49 +87,46 @@ body {
 }
 
 @media (max-width: 768px) {
+  .header {
+    width: 95%;
+    max-width: 95%;
+    margin: 15px auto;
+    left: 0;
+    right: 0;
+    top: 10px;
+    transform: none;
+    padding: 15px 10px;
+  }
+
   .header-top {
     flex-direction: column;
     text-align: center;
+    gap: 10px;
   }
 
   .header h1 {
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
   }
 
   .header p {
     text-align: center;
-    font-size: 16px;
+    font-size: 15px; 
   }
 
   .header-logo {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
 
   .lang-btn {
     padding: 6px 14px;
     font-size: 13px;
   }
-
-  .container {
-    padding: 180px 15px 30px;
-  }
-
-  .tab-inner p {
-    font-size: 16px;
-  }
-
+  
   .contacts {
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .tab-header h3 {
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 10px;
   }
 }
 
