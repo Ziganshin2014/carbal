@@ -93,7 +93,7 @@ body {
   }
 
   .header h1 {
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
   }
 
@@ -113,13 +113,23 @@ body {
   }
 
   .container {
-    padding: 120px 15px 40px;
+    padding: 180px 15px 30px;
   }
 
-  .header {
-    padding: 20px 10px;
-    width: 95%;
-    top: 10px;
+  .tab-inner p {
+    font-size: 16px;
+  }
+
+  .contacts {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .tab-header h3 {
+    font-size: 18px;
   }
 }
 
