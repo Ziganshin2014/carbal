@@ -28,12 +28,11 @@ body {
   max-width: 1100px;
   border-radius: 30px;
   margin: 30px auto;
-  position: fixed;
-  top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1000;
-
 }
 
 .header-top {
@@ -111,6 +110,16 @@ body {
   .lang-btn {
     padding: 6px 14px;
     font-size: 13px;
+  }
+
+  .container {
+    padding: 120px 15px 40px;
+  }
+
+  .header {
+    padding: 20px 10px;
+    width: 95%;
+    top: 10px;
   }
 }
 
